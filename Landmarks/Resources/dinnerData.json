@@ -1,0 +1,1503 @@
+[
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 337376,
+      "title": "Slow-Roasted Turkey Dinner - Early Dinner Deal",
+      "image": "https://images.spoonacular.com/file/wximages/337376-312x231.png",
+      "imageType": "png",
+      "restaurantChain": "Village Inn",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "plating"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 273958,
+      "title": "Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carrows",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 278764,
+      "title": "Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Hacienda",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 291028,
+      "title": "Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Lone Star Steakhouse & Saloon",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 304586,
+      "title": "Enchilada Dinner",
+      "image": "https://spoonacular.com/menuItemImages/enchiladas.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Taco Tico",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 310831,
+      "title": "Clam Dinner",
+      "image": "https://spoonacular.com/menuItemImages/steamed-clams.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Kings Family Restaurant",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 363585,
+      "title": "Lasagna Dinner",
+      "image": "https://spoonacular.com/menuItemImages/lasagna-meal.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Papa Romano's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "dinner"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 363588,
+      "title": "Mostaccioli Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/363588-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Papa Romano's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "dinner"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 366770,
+      "title": "Steak Dinner",
+      "image": "https://spoonacular.com/menuItemImages/steak.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Country Kitchen",
+      "servings": {
+        "number": 1,
+        "size": 17.8,
+        "unit": "oz."
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 396344,
+      "title": "Meatloaf (Dinner)",
+      "image": "https://images.spoonacular.com/file/wximages/396344-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Daily Grill",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "plating"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 341627,
+      "title": "Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Black Bear Diner",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "meal"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 249581,
+      "title": "Catfish Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/249581-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "O'Charley's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 423862,
+      "title": "Shrimp Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/423862-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Frisch's Big Boy",
+      "servings": {
+        "number": 1,
+        "size": 8,
+        "unit": "Pieces"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 303753,
+      "title": "Burrito Dinner",
+      "image": "https://spoonacular.com/menuItemImages/burrito-plain.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Taco Tico",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 366735,
+      "title": "Meatloaf Dinner",
+      "image": "https://spoonacular.com/menuItemImages/sliced-meatloaf.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Country Kitchen",
+      "servings": {
+        "number": 1,
+        "size": 12.6,
+        "unit": "oz."
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 368299,
+      "title": "Rib Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/368299-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Famous Dave's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "order"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 397044,
+      "title": "Lasagna Dinner",
+      "image": "https://spoonacular.com/menuItemImages/lasagna-meal.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Amato's Sandwich Shops",
+      "servings": {
+        "number": 1,
+        "size": 492,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 310305,
+      "title": "Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Grandy's",
+      "servings": {
+        "number": 1,
+        "size": 5.5,
+        "unit": "oz"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 397133,
+      "title": "Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Amato's Sandwich Shops",
+      "servings": {
+        "number": 1,
+        "size": 179,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 253708,
+      "title": "Meatloaf Dinner",
+      "image": "https://spoonacular.com/menuItemImages/sliced-meatloaf.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Perkins",
+      "servings": {
+        "number": 1,
+        "size": 735.15,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 362936,
+      "title": "Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Shari's",
+      "servings": {
+        "number": 1,
+        "size": 135,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 391013,
+      "title": "Shrimp Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/391013-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Woody's BBQ",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "plating"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 331686,
+      "title": "Dinner Salmon, Sauteed",
+      "image": "https://spoonacular.com/menuItemImages/grilled-salmon.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Bahama Breeze",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 231638,
+      "title": "Carinos Chicken Scallopini",
+      "image": "https://images.spoonacular.com/file/wximages/231638-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 231745,
+      "title": "Carinos Lobster Ravioli",
+      "image": "https://spoonacular.com/menuItemImages/seafood-pasta.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 231764,
+      "title": "Carinos Signature Lasagna",
+      "image": "https://spoonacular.com/menuItemImages/lasagna-meal.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 253634,
+      "title": "Beef Stroganoff Dinner",
+      "image": "https://spoonacular.com/menuItemImages/beef-stroganoff.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Perkins",
+      "servings": {
+        "number": 1,
+        "size": 839,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 264363,
+      "title": "1/2 Flameante Chicken Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/264363-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Taco Cabana",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 273196,
+      "title": "Meat Loaf Dinner",
+      "image": "https://spoonacular.com/menuItemImages/sliced-meatloaf.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Timber Lodge Steakhouse",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 280070,
+      "title": "Dinner Caesar Salad",
+      "image": "https://spoonacular.com/menuItemImages/caesar-salad.png",
+      "imageType": "png",
+      "restaurantChain": "Garfield's Restaurant & Pub",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 292028,
+      "title": "Chicken Fingers – Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-strips.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Garfield's Restaurant & Pub",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 319588,
+      "title": "Turkey Dinner Soup",
+      "image": "https://images.spoonacular.com/file/wximages/319588-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Hale and Hearty Soups",
+      "servings": {
+        "number": 1,
+        "size": 12,
+        "unit": "oz"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 319589,
+      "title": "Turkey Dinner Soup",
+      "image": "https://images.spoonacular.com/file/wximages/319589-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Hale and Hearty Soups",
+      "servings": {
+        "number": 1,
+        "size": 16,
+        "unit": "oz"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 319591,
+      "title": "Turkey Dinner Soup",
+      "image": "https://images.spoonacular.com/file/wximages/319591-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Hale and Hearty Soups",
+      "servings": {
+        "number": 1,
+        "size": 8,
+        "unit": "oz"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 320935,
+      "title": "Ihop Pot Roast Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/320935-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "i hop",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "meal"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 320936,
+      "title": "Ihop Sirloin Steak Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/320936-312x231.png",
+      "imageType": "png",
+      "restaurantChain": "i hop",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "meal"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 324765,
+      "title": "55 Plus Chicken Strips Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-strips.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Perkins",
+      "servings": {
+        "number": 1,
+        "size": 578.5,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 328218,
+      "title": "Carinos Lobster Ravioli",
+      "image": "https://spoonacular.com/menuItemImages/seafood-pasta.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 328276,
+      "title": "Carinos Signature Lasagna",
+      "image": "https://spoonacular.com/menuItemImages/lasagna-meal.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 331687,
+      "title": "Dinner Salmon, Grilled",
+      "image": "https://spoonacular.com/menuItemImages/grilled-salmon.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Bahama Breeze",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 331688,
+      "title": "Dinner Tilapia, Sauteed",
+      "image": "https://spoonacular.com/menuItemImages/grilled-tilapia.png",
+      "imageType": "png",
+      "restaurantChain": "Bahama Breeze",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 331689,
+      "title": "Dinner Tilapia, Grilled",
+      "image": "https://spoonacular.com/menuItemImages/grilled-tilapia.png",
+      "imageType": "png",
+      "restaurantChain": "Bahama Breeze",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 334600,
+      "title": "Chicken Strips Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-strips.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Old Chicago",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 334771,
+      "title": "Beef Enchilada Dinner",
+      "image": "https://spoonacular.com/menuItemImages/enchiladas.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Casa Ole",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "dinner"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 334777,
+      "title": "Cheese Enchilada Dinner",
+      "image": "https://spoonacular.com/menuItemImages/enchiladas.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Casa Ole",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "dinner"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 226594,
+      "title": "4 Cheese Ravioli",
+      "image": "https://spoonacular.com/menuItemImages/ravioli-dish.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Bertucci's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 337933,
+      "title": "8 oz. Prime Rib Dinner",
+      "image": "https://spoonacular.com/menuItemImages/prime-rib.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Coco's Bakery",
+      "servings": {
+        "number": 1,
+        "size": 8,
+        "unit": "oz"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 341533,
+      "title": "BLT w/ Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/blt-sandwich.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Black Bear Diner",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "meal"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 352125,
+      "title": "Mustard Salmon Dinner",
+      "image": "https://spoonacular.com/menuItemImages/grilled-salmon.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "The Keg Steakhouse",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "plating"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 354426,
+      "title": "Chicken Piccata Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-piccata.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Not Your Average Joe's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "plating"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 354444,
+      "title": "Smokehouse Jambalaya Dinner",
+      "image": "https://spoonacular.com/menuItemImages/jambalaya.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Not Your Average Joe's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "plating"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 357040,
+      "title": "Caesar Dinner Salad",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Ruby's Diner",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "Serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 362994,
+      "title": "T-Bone Steak Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/362994-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Shari's",
+      "servings": {
+        "number": 1,
+        "size": 581,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 366758,
+      "title": "Senior Fish Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/366758-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Country Kitchen",
+      "servings": {
+        "number": 1,
+        "size": 17.4,
+        "unit": "oz"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 366762,
+      "title": "Senior Meatloaf Dinner",
+      "image": "https://spoonacular.com/menuItemImages/sliced-meatloaf.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Country Kitchen",
+      "servings": {
+        "number": 1,
+        "size": 18.6,
+        "unit": "oz."
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 372502,
+      "title": "Snow Crab Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/372502-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Miller's Ale House",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 261499,
+      "title": "Breaded Shrimp",
+      "image": "https://spoonacular.com/menuItemImages/fried-shrimp.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Sonny's BBQ",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 381853,
+      "title": "Cheese Tortellini",
+      "image": "https://images.spoonacular.com/file/wximages/381853-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Sam & Louie's Ny Pizza",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 382196,
+      "title": "Roast Turkey Dinner",
+      "image": "https://spoonacular.com/menuItemImages/roast-turkey.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Abc Country Restaurants",
+      "servings": {
+        "number": 1,
+        "size": 630,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 397045,
+      "title": "Eggplant Parmigiana Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/397045-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Amato's Sandwich Shops",
+      "servings": {
+        "number": 1,
+        "size": 688,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 402671,
+      "title": "Crab Cake Dinner",
+      "image": "https://spoonacular.com/menuItemImages/crab-cakes.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Joe's Crab Shack",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 231794,
+      "title": "Carinos Spaghetti w/ Meatballs",
+      "image": "https://images.spoonacular.com/file/wximages/231794-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 340955,
+      "title": "Chopped Steak Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/340955-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Culver's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 397041,
+      "title": "Baked Ziti Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/397041-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Amato's Sandwich Shops",
+      "servings": {
+        "number": 1,
+        "size": 600,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 243606,
+      "title": "Ihop Fried Chicken Dinner",
+      "image": "https://spoonacular.com/menuItemImages/fried-chicken.png",
+      "imageType": "png",
+      "restaurantChain": "i hop",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "meal"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 261497,
+      "title": "Breaded Catfish",
+      "image": "https://images.spoonacular.com/file/wximages/261497-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Sonny's BBQ",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 324739,
+      "title": "Chicken Strips Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-strips.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Perkins",
+      "servings": {
+        "number": 1,
+        "size": 578.5,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 351240,
+      "title": "Caribbean Chicken Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/351240-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Kona Grill",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 324925,
+      "title": "Meatloaf Dinner, Homemade",
+      "image": "https://spoonacular.com/menuItemImages/sliced-meatloaf.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Perkins",
+      "servings": {
+        "number": 1,
+        "size": 735.15,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 397043,
+      "title": "Chicken Parmigiana Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-parmesan.png",
+      "imageType": "png",
+      "restaurantChain": "Amato's Sandwich Shops",
+      "servings": {
+        "number": 1,
+        "size": 688,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 396113,
+      "title": "Cobb Salad (Dinner)",
+      "image": "https://images.spoonacular.com/file/wximages/396113-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Daily Grill",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "salad"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 378688,
+      "title": "Chicken Yakisoba Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chow-mein-stir-fried-noodles.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Benihana",
+      "servings": {
+        "number": 1,
+        "size": 435,
+        "unit": "grams"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 231750,
+      "title": "Carinos Pasta Alfredo",
+      "image": "https://images.spoonacular.com/file/wximages/231750-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 234063,
+      "title": "12 oz Prime Rib Dinner",
+      "image": "https://spoonacular.com/menuItemImages/prime-rib.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Coco's Bakery",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 345822,
+      "title": "Dinner Caesar Salad",
+      "image": "https://spoonacular.com/menuItemImages/caesar-salad.png",
+      "imageType": "png",
+      "restaurantChain": "Lone Star Steakhouse & Saloon",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 366731,
+      "title": "BBQ Ribs Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/366731-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Country Kitchen",
+      "servings": {
+        "number": 1,
+        "size": 17.6,
+        "unit": "oz."
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 231614,
+      "title": "Carinos Chicken Fettuccine",
+      "image": "https://images.spoonacular.com/file/wximages/231614-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 337319,
+      "title": "Dinner Salad w/o dressing",
+      "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Village Inn",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "salad"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 328304,
+      "title": "Carinos Spaghetti w/ Meatballs",
+      "image": "https://spoonacular.com/menuItemImages/spaghetti-and-meatballs.png",
+      "imageType": "png",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 334779,
+      "title": "Chicken Enchilada Dinner",
+      "image": "https://spoonacular.com/menuItemImages/enchiladas.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Casa Ole",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "dinner"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 231621,
+      "title": "Carinos Chicken Marsala",
+      "image": "https://spoonacular.com/menuItemImages/chicken-marsala.png",
+      "imageType": "png",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 337928,
+      "title": "12 oz. Prime Rib Dinner",
+      "image": "https://spoonacular.com/menuItemImages/prime-rib.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Coco's Bakery",
+      "servings": {
+        "number": 1,
+        "size": 12,
+        "unit": "oz"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 247294,
+      "title": "Roasted Turkey Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/247294-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Marie Callender's",
+      "servings": {
+        "number": 1,
+        "size": 706.05,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 422184,
+      "title": "Shrimp Dinner Platter",
+      "image": "https://images.spoonacular.com/file/wximages/422184-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Huddle House",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 396199,
+      "title": "Classic Hamburger (Dinner)",
+      "image": "https://spoonacular.com/menuItemImages/hamburger.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Daily Grill",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "sandwich"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 328456,
+      "title": "Carinos Chicken Fettuccine",
+      "image": "https://images.spoonacular.com/file/wximages/328456-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 226300,
+      "title": "Grilled Shrimp Dinner",
+      "image": "https://spoonacular.com/menuItemImages/shrimp-skewers.png",
+      "imageType": "png",
+      "restaurantChain": "Beef 'O' Brady's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 363584,
+      "title": "Chicken Fingers Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-strips.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Papa Romano's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "dinner"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 328481,
+      "title": "Carinos Pasta Alfredo",
+      "image": "https://images.spoonacular.com/file/wximages/328481-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Carino's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 226309,
+      "title": "Poblano Chicken Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/226309-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Beef 'O' Brady's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 366978,
+      "title": "Chicken Strip Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-strips.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Ram's Horn Restaurant",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 297100,
+      "title": "Dinner Caesar Salad",
+      "image": "https://spoonacular.com/menuItemImages/caesar-salad.png",
+      "imageType": "png",
+      "restaurantChain": "Lone Star Steakhouse & Saloon",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "serving"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 366765,
+      "title": "Senior Steak Dinner 5 oz",
+      "image": "https://spoonacular.com/menuItemImages/steak.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Country Kitchen",
+      "servings": {
+        "number": 1,
+        "size": 20.8,
+        "unit": "oz"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 234065,
+      "title": "8 oz Prime Rib Dinner",
+      "image": "https://spoonacular.com/menuItemImages/prime-rib.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Coco's Bakery",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 397048,
+      "title": "Spaghetti w/ Meatballs Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/397048-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Amato's Sandwich Shops",
+      "servings": {
+        "number": 1,
+        "size": 629,
+        "unit": "g"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 417227,
+      "title": "Pulled Pork Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/417227-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Texas Roadhouse",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 226277,
+      "title": "Blackened Shrimp Dinner",
+      "image": "https://images.spoonacular.com/file/wximages/226277-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Beef 'O' Brady's",
+      "servings": {
+        "number": 1,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 320978,
+      "title": "Ihop 55+ Roasted Turkey Dinner",
+      "image": "https://spoonacular.com/menuItemImages/roast-turkey.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "i hop",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "meal"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 346449,
+      "title": "Chicken Strips Dinner",
+      "image": "https://spoonacular.com/menuItemImages/chicken-strips.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Ponderosa Steakhouse",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "plating"
+      }
+    },
+    {
+        "isFavorite": false,
+        "isFeatured": false,
+        "category": "dinner",
+      "id": 354418,
+      "title": "Anything But Average Meatloaf Dinner",
+      "image": "https://spoonacular.com/menuItemImages/sliced-meatloaf.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Not Your Average Joe's",
+      "servings": {
+        "number": 1,
+        "size": 1,
+        "unit": "plating"
+      }
+    }
+]
+
