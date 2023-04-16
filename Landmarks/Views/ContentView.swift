@@ -31,7 +31,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Food", systemImage: "leaf.fill")
                 }
-                .tag(Tab.featured)
+                .tag(Tab.food)
             
             HealthView()
                 .tabItem {

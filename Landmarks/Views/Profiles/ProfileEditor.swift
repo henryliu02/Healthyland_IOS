@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProfileEditor: View {
     @Binding var profile: Profile
+    @EnvironmentObject var viewModel: AuthenticationViewModel
 
     var dateRange: ClosedRange<Date> {
         let min = Calendar.current.date(byAdding: .year, value: -1, to: profile.goalDate)!
@@ -21,7 +22,7 @@ struct ProfileEditor: View {
             HStack {
                 Text("Username").bold()
                 Divider()
-                TextField("Username", text: $profile.username)
+                TextField("Username", text: $viewModel.displayName)
             }
 
             Toggle(isOn: $profile.prefersNotifications) {
@@ -49,5 +50,6 @@ struct ProfileEditor: View {
 struct ProfileEditor_Previews: PreviewProvider {
     static var previews: some View {
         ProfileEditor(profile: .constant(.default))
+            .environmentObject(AuthenticationViewModel())
     }
 }

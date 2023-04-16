@@ -15,8 +15,9 @@ struct FoodHome: View {
     var body: some View {
         NavigationView {
             List {
-                FoodItem(food: modelData.all_meals[88])
-//                    .resizable()
+//                FoodItem(food: modelData.all_meals[88])
+                Image("food-background")
+                    .resizable()
                     .scaledToFill()
                     .frame(height: 200)
                     .clipped()
@@ -39,6 +40,7 @@ struct FoodHome: View {
             .sheet(isPresented: $showingProfile) {
                 ProfileHost()
                     .environmentObject(modelData)
+                    .environmentObject(AuthenticationViewModel())
             }
         }
     }

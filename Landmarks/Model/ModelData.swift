@@ -25,12 +25,13 @@ struct Schedule: Identifiable {
 struct FoodSchedule: Identifiable {
     var id = UUID()
     var food: Meal
-    var calories: Double?
-    var servings: Int?
+    var calories: Double
+    var servings: Int
     var date: Date = Date()
     var selectedTime : String
     var isSelected: Bool
 }
+
 
 //struct Food: Hashable, Codable, Identifiable {
 //    var id: Int
@@ -81,6 +82,9 @@ final class ModelData: ObservableObject {
     @Published var all_meals: [Meal] = load("all_meals.json")
     
     @Published var meals: [Meal] = [] // new property to hold meals
+    
+    @Published var mealSchedule: [FoodSchedule] = [] // new property to hold meals
+    
     
     @Published var healthStatuses: [HealthStatus] = []
     @Published var personalData: PersonalData = PersonalData()
@@ -136,7 +140,9 @@ final class ModelData: ObservableObject {
         }
         readData()
         readMostRecentHeight_Weight()
-        healthStatuses.removeAll()
+        DispatchQueue.main.async {
+            self.healthStatuses.removeAll()
+        }
         retrieveHealthData()
     }
     func readData(){
@@ -185,10 +191,12 @@ final class ModelData: ObservableObject {
         print("Sex: \(sexData)")
         print("BloodType:\(bloodtype)")
         print("DOB:\(birth)")
-        personalData.dob = birth
-        personalData.age = age ?? 0
-        personalData.sex = sexData
-        personalData.blood = bloodtype
+        DispatchQueue.main.async {
+            self.personalData.dob = birth
+            self.personalData.age = age ?? 0
+            self.personalData.sex = sexData
+            self.personalData.blood = bloodtype
+        }
     }
     
     func HKBloodTypeString(bloodType: HKBloodType) -> String {
@@ -250,7 +258,9 @@ final class ModelData: ObservableObject {
                 recent_weight = result.quantity.description
                 
             }else{print("no weight data")}
-            self.personalData.weight = recent_weight
+            DispatchQueue.main.async {
+                self.personalData.weight = recent_weight
+            }
         }
         
 
@@ -261,7 +271,9 @@ final class ModelData: ObservableObject {
                 print("height => \(result.quantity)")
                 recent_height = result.quantity.description
             }else{print("no height data")}
-            self.personalData.height = recent_height
+            DispatchQueue.main.async {
+                self.personalData.height = recent_height
+            }
         }
 
         healthStore.execute(queryWeight)

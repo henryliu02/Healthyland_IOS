@@ -10,7 +10,7 @@ import SwiftUI
 struct FoodItem: View {
     var food: Meal
     @EnvironmentObject var modelData: ModelData
-    @State private var image: Image = Image(systemName: "photo")
+    @State private var image: Image = Image(systemName: "takeoutbag.and.cup.and.straw")
 
     var body: some View {
         VStack(alignment: .leading) {

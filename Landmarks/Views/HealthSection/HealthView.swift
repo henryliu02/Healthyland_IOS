@@ -26,10 +26,14 @@ struct HealthView: View {
     @State private var addedCalories = false
     @State private var isAnimating = false
     @State private var totalCalories = 0
-    @State private var selectedStatus: [(index: Int, isSelected: Bool)] = []
+    
     @State private var isExpanded = true // Add a @State property to keep track of whether the view is expanded or not
     @State private var scheduleExpanded = true
     @State private var dietaryExpanded = true
+    @State private var selectedMeals: Set<Int> = []
+    @State private var addedCalories_food = false
+    @State private var totalCalories_food = 0
+    
 
 
 
@@ -50,6 +54,10 @@ struct HealthView: View {
     func getTotalCalories() -> Int {
         return totalCalories
     }
+    
+    func getTotalCalories_food() -> Int {
+        return totalCalories_food
+    }
 
     // update totalCalories variable when a workout is added
     func addWorkoutToTotalCalories(workout: Workout, minutes: Int) {
@@ -60,6 +68,17 @@ struct HealthView: View {
     func deleteWorkoutFromTotalCalories(workout: Workout, minutes: Int) {
         totalCalories -= Int(workout.calo_burn * Float(minutes))
     }
+    
+    func deleteMealFromTotalCalories(meal: FoodSchedule, servings: Int) {
+        let mealCalories = Int(meal.calories * Double(servings))
+        totalCalories_food -= mealCalories
+    }
+
+    func addMealToTotalCalories(meal: FoodSchedule, servings: Int) {
+        let mealCalories = Int(meal.calories * Double(servings))
+        totalCalories_food += mealCalories
+    }
+
 
 
         var body: some View {
@@ -366,20 +385,98 @@ struct HealthView: View {
                     }
 
                     if dietaryExpanded{
-                        if modelData.meals.isEmpty {
+                        if modelData.mealSchedule.isEmpty {
                             Text("You have no dietary schedules.")
                                 .foregroundColor(.secondary)
                         } else {
                             
-                            ForEach(modelData.all_meals) { meal in
+                            ForEach(Array(modelData.mealSchedule.enumerated()).sorted { (schedule1, schedule2) -> Bool in
+                                let formatter = DateFormatter()
+                                formatter.dateFormat = "MMM d, yyyy"
+                                let date1 = schedule1.element.date
+                                let date2 = schedule2.element.date
+                                if date1 == date2 {
+                                    formatter.dateFormat = "h:mm a"
+                                    let time1 = formatter.date(from: schedule1.element.selectedTime)!
+                                    let time2 = formatter.date(from: schedule2.element.selectedTime)!
+                                    if time1 == time2 {
+                                        return schedule1.offset < schedule2.offset // use index for stable sorting
+                                    }
+                                    return time1 < time2
+                                }
+                                return date1 < date2
+                            }, id: \.1.id) { index, schedule in
                                 VStack(alignment: .leading) {
-                                    Text(meal.title)
-                                        .font(.headline)
-                                    Text("Calories: ")
+                                    HStack {
+                                        Text(schedule.food.title)
+                                            .font(.headline)
+                                        Spacer()
+                                        Button(action: {
+                                            if selectedMeals.contains(index) {
+                                                selectedMeals.remove(index)
+                                                if selectedMeals.isEmpty {
+                                                    addedCalories_food = false
+                                                    totalCalories_food = 0
+                                                } else {
+                                                    deleteMealFromTotalCalories(meal: schedule, servings: schedule.servings )
+                                                    totalCalories_food = getTotalCalories_food()
+                                                }
+                                            } else {
+                                                selectedMeals.insert(index)
+                                                addedCalories_food = true
+                                                addMealToTotalCalories(meal: schedule, servings: schedule.servings )
+                                                totalCalories_food = getTotalCalories_food()
+                                            }
+                                        }) {
+                                            if selectedMeals.contains(index) {
+                                                Image(systemName: "checkmark.circle.fill")
+                                                    .foregroundColor(.green)
+                                            } else {
+                                                Image(systemName: "circle")
+                                            }
+                                        }
+                                        if !selectedMeals.contains(index) {
+                                            Button(action: {
+                                                modelData.mealSchedule.remove(at: index)
+                                                // Update selectedMeals array
+                                                selectedMeals = selectedMeals.filter { $0 != index }
+                                                // Delete from schedule list, need return to break from current loop to reiterate the correct index, avoid index out of bound
+                                                return
+                                            }) {
+                                                Image(systemName: "trash")
+                                                    .foregroundColor(.red)
+                                            }
+                                        }
+                                    }
+                                    Text("Servings: \(schedule.servings )")
                                         .font(.subheadline)
+                                    Text(schedule.date, style: .date)
+                                        .font(.subheadline)
+                                    Text(schedule.selectedTime)
+                                        .font(.subheadline)
+
+                                    if addedCalories_food && selectedMeals.contains(index) {
+                                        Text("Calories: \(Int(schedule.calories ))")
+                                            .font(.headline)
+                                            .fontWeight(.bold)
+                                            .foregroundColor(.yellow)
+                                            .modifier(PulseAnimation(shouldAnimate: $isAnimating))
+                                    } else {
+                                        Text("Calories will consume: \(Int(schedule.calories )) Cals")
+                                    }
                                 }
                                 .padding(.vertical, 8)
                             }
+
+                            if addedCalories_food {
+                                Text("Total Calories consumed: \(self.getTotalCalories_food()) Cals")
+                                    .font(.headline)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.yellow)
+                                    .modifier(PulseAnimation(shouldAnimate: $isAnimating))
+                                    .padding(.top)
+                            }
+
                         }
                     }
 

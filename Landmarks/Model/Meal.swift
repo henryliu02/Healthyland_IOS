@@ -31,6 +31,10 @@ struct Meal: Identifiable, Decodable {
         case breakfast = "breakfast"
         case dinner = "dinner"
         case lunch = "lunch"
+        case chinese = "Chinese"
+        case american = "American"
+        case italian = "Italian"
+        case japanese = "Japanese"
         case unknown = "unknown"
         
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1C273729ED3A940051880A /* HealthylandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C273629ED3A940051880A /* HealthylandApp.swift */; };
+		0E1C273929ED3AF80051880A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C273829ED3AF80051880A /* LoginView.swift */; };
+		0E1C273F29EF71CA0051880A /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C273E29EF71CA0051880A /* RecipeViewController.swift */; };
 		0E43065A29EC408300328506 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E43065929EC408300328506 /* GoogleService-Info.plist */; };
 		0E43065C29EC40EE00328506 /* FoodHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E43065B29EC40EE00328506 /* FoodHome.swift */; };
 		0E43065E29EC40F500328506 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E43065D29EC40F500328506 /* FoodItem.swift */; };
@@ -22,7 +25,12 @@
 		0E43067229EC422E00328506 /* workoutData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E43067129EC422E00328506 /* workoutData.json */; };
 		0E43067729EC435F00328506 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0E43067629EC435F00328506 /* FirebaseAnalytics */; };
 		0E43067B29EC48A300328506 /* all_meals.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E43067A29EC48A300328506 /* all_meals.json */; };
-		C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */; };
+		0E7D279429ED06BF00150489 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0E7D279329ED06BF00150489 /* FirebaseAuth */; };
+		0E7D279629ED06C900150489 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0E7D279529ED06C900150489 /* FirebaseAnalyticsSwift */; };
+		0E7D279829ED0E1000150489 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D279729ED0E1000150489 /* AuthenticationViewModel.swift */; };
+		0E7D279A29ED109900150489 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D279929ED109900150489 /* AuthenticationView.swift */; };
+		0E7D279C29ED113100150489 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D279B29ED113100150489 /* SignupView.swift */; };
+		0E7D279E29ED179200150489 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7D279D29ED179200150489 /* AuthenticatedView.swift */; };
 		C20D77F024B665D7002E7AEA /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D77EF24B665D7002E7AEA /* LandmarkDetail.swift */; };
 		C20D77F224B665D8002E7AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F124B665D8002E7AEA /* Assets.xcassets */; };
 		C20D77F524B665D8002E7AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */; };
@@ -57,6 +65,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E1C273629ED3A940051880A /* HealthylandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthylandApp.swift; sourceTree = "<group>"; };
+		0E1C273829ED3AF80051880A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0E1C273E29EF71CA0051880A /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		0E43065829EC3FF500328506 /* Landmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Landmarks.entitlements; sourceTree = "<group>"; };
 		0E43065929EC408300328506 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0E43065B29EC40EE00328506 /* FoodHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodHome.swift; sourceTree = "<group>"; };
@@ -72,10 +83,13 @@
 		0E43066F29EC422600328506 /* lunchData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lunchData.json; sourceTree = "<group>"; };
 		0E43067129EC422E00328506 /* workoutData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workoutData.json; sourceTree = "<group>"; };
 		0E43067A29EC48A300328506 /* all_meals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = all_meals.json; sourceTree = "<group>"; };
+		0E7D279729ED0E1000150489 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		0E7D279929ED109900150489 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		0E7D279B29ED113100150489 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		0E7D279D29ED179200150489 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
 		8C249B054B1162DF28CD504A /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		9468E2AE3DC3F388E84A29BD /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C20D77EA24B665D7002E7AEA /* Healthyland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healthyland.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		C20D77EF24B665D7002E7AEA /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		C20D77F124B665D8002E7AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C20D77F424B665D8002E7AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -116,13 +130,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7D279629ED06C900150489 /* FirebaseAnalyticsSwift in Frameworks */,
 				0E43067729EC435F00328506 /* FirebaseAnalytics in Frameworks */,
+				0E7D279429ED06BF00150489 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1C273A29ED3BD00051880A /* FoodSection */ = {
+			isa = PBXGroup;
+			children = (
+				0E43065B29EC40EE00328506 /* FoodHome.swift */,
+				0E43065F29EC40FB00328506 /* FoodRow.swift */,
+				0E43066129EC411D00328506 /* FoodDetail.swift */,
+				0E43065D29EC40F500328506 /* FoodItem.swift */,
+				0E1C273E29EF71CA0051880A /* RecipeViewController.swift */,
+			);
+			path = FoodSection;
+			sourceTree = "<group>";
+		};
+		0E1C273B29ED3C280051880A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0E7D279929ED109900150489 /* AuthenticationView.swift */,
+				0E1C273829ED3AF80051880A /* LoginView.swift */,
+				0E7D279B29ED113100150489 /* SignupView.swift */,
+				0E7D279D29ED179200150489 /* AuthenticatedView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		0E1C273D29ED3C650051880A /* HealthSection */ = {
+			isa = PBXGroup;
+			children = (
+				0E43066329EC412500328506 /* HealthView.swift */,
+			);
+			path = HealthSection;
+			sourceTree = "<group>";
+		};
+		0E7D279229ED06BF00150489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C8A402C77B3496648F32598 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +201,7 @@
 				C20D77EB24B665D7002E7AEA /* Products */,
 				4C8A402C77B3496648F32598 /* Configuration */,
 				5109654D70624D1B2DAA3DED /* LICENSE */,
+				0E7D279229ED06BF00150489 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,7 +218,7 @@
 			children = (
 				0E43065829EC3FF500328506 /* Landmarks.entitlements */,
 				0E43065929EC408300328506 /* GoogleService-Info.plist */,
-				C20D77ED24B665D7002E7AEA /* LandmarksApp.swift */,
+				0E1C273629ED3A940051880A /* HealthylandApp.swift */,
 				C2FEB32D24B7C802004FAB73 /* Views */,
 				C20D780824B685C4002E7AEA /* Model */,
 				C20D780924B685CB002E7AEA /* Resources */,
@@ -192,6 +247,7 @@
 				0E43066529EC41BF00328506 /* KeychainItem.swift */,
 				C20D781F24B6CCCF002E7AEA /* Hike.swift */,
 				C2FEB33C24B7CD01004FAB73 /* Profile.swift */,
+				0E7D279729ED0E1000150489 /* AuthenticationViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -257,18 +313,16 @@
 		C2FEB32D24B7C802004FAB73 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0E43065B29EC40EE00328506 /* FoodHome.swift */,
-				0E43065F29EC40FB00328506 /* FoodRow.swift */,
-				0E43066129EC411D00328506 /* FoodDetail.swift */,
-				0E43065D29EC40F500328506 /* FoodItem.swift */,
-				0E43066329EC412500328506 /* HealthView.swift */,
 				C2C5839D24DB739600DD0019 /* ContentView.swift */,
+				0E1C273A29ED3BD00051880A /* FoodSection */,
+				0E1C273D29ED3C650051880A /* HealthSection */,
 				C2C583A024DB73C300DD0019 /* Categories */,
 				C2FEB32E24B7C83E004FAB73 /* Landmarks */,
 				C2FEB33924B7CCBD004FAB73 /* Profiles */,
 				C20D781924B6CA56002E7AEA /* Badges */,
 				C20D781E24B6CCB6002E7AEA /* Hikes */,
 				C2C583A124DB74DE00DD0019 /* Helpers */,
+				0E1C273B29ED3C280051880A /* Authentication */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +365,8 @@
 			name = Healthyland;
 			packageProductDependencies = (
 				0E43067629EC435F00328506 /* FirebaseAnalytics */,
+				0E7D279329ED06BF00150489 /* FirebaseAuth */,
+				0E7D279529ED06C900150489 /* FirebaseAnalyticsSwift */,
 			);
 			productName = Landmarks;
 			productReference = C20D77EA24B665D7002E7AEA /* Healthyland.app */;
@@ -377,10 +433,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7D279E29ED179200150489 /* AuthenticatedView.swift in Sources */,
+				0E7D279829ED0E1000150489 /* AuthenticationViewModel.swift in Sources */,
+				0E1C273F29EF71CA0051880A /* RecipeViewController.swift in Sources */,
 				C20D782024B6CCCF002E7AEA /* Hike.swift in Sources */,
+				0E1C273929ED3AF80051880A /* LoginView.swift in Sources */,
 				C20D782224B6CD01002E7AEA /* HikeGraph.swift in Sources */,
 				C2FEB32A24B7B649004FAB73 /* CategoryRow.swift in Sources */,
 				C2FEB33D24B7CD01004FAB73 /* Profile.swift in Sources */,
+				0E1C273729ED3A940051880A /* HealthylandApp.swift in Sources */,
 				0E43065E29EC40F500328506 /* FoodItem.swift in Sources */,
 				C2FEB34324B7D935004FAB73 /* ProfileEditor.swift in Sources */,
 				0E43066229EC411D00328506 /* FoodDetail.swift in Sources */,
@@ -388,6 +449,7 @@
 				C20D780524B684EC002E7AEA /* ModelData.swift in Sources */,
 				C20D781224B6A3E7002E7AEA /* Badge.swift in Sources */,
 				C20D77F024B665D7002E7AEA /* LandmarkDetail.swift in Sources */,
+				0E7D279A29ED109900150489 /* AuthenticationView.swift in Sources */,
 				C20D77FF24B67FB3002E7AEA /* MapView.swift in Sources */,
 				C20D781824B6C5F6002E7AEA /* RotatedBadgeSymbol.swift in Sources */,
 				C2FEB34124B7CEE0004FAB73 /* HikeBadge.swift in Sources */,
@@ -399,9 +461,9 @@
 				C20D781424B6A662002E7AEA /* BadgeBackground.swift in Sources */,
 				C2FEB33F24B7CDF4004FAB73 /* ProfileSummary.swift in Sources */,
 				0E43065C29EC40EE00328506 /* FoodHome.swift in Sources */,
+				0E7D279C29ED113100150489 /* SignupView.swift in Sources */,
 				C2FEB32824B7B498004FAB73 /* CategoryHome.swift in Sources */,
 				0E43066A29EC41E800328506 /* Workout.swift in Sources */,
-				C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */,
 				0E43066629EC41BF00328506 /* KeychainItem.swift in Sources */,
 				C20D780124B6846F002E7AEA /* LandmarkRow.swift in Sources */,
 				C20D77FD24B668F4002E7AEA /* CircleImage.swift in Sources */,
@@ -544,9 +606,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Landmarks/Landmarks.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
-				DEVELOPMENT_TEAM = 6CMKGPYKVX;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6CMKGPYKVX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Healthyland;
@@ -559,6 +623,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthnessapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Henry_test2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -571,9 +636,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Landmarks/Landmarks.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
-				DEVELOPMENT_TEAM = 6CMKGPYKVX;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6CMKGPYKVX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Healthyland;
@@ -586,6 +653,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.healthnessapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Henry_test2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -630,6 +698,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0E43067529EC435F00328506 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
+		};
+		0E7D279329ED06BF00150489 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E43067529EC435F00328506 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0E7D279529ED06C900150489 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E43067529EC435F00328506 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

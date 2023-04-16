@@ -39,6 +39,7 @@ struct CategoryHome: View {
             .sheet(isPresented: $showingProfile) {
                 ProfileHost()
                     .environmentObject(modelData)
+                    .environmentObject(AuthenticationViewModel())
             }
         }
     }
