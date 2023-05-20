@@ -55,7 +55,7 @@ struct MealListView: View {
     
     func load_daily_meals_plan() {
         let headers = [
-            "X-RapidAPI-Key": "a5152753a2mshfc2bdfb8d6827d0p12166cjsnc3d253f069f4",
+            "X-RapidAPI-Key": "redated_to_avoid_leak",
             "X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
         ]
         
