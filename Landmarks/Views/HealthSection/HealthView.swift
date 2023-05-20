@@ -30,26 +30,11 @@ struct HealthView: View {
     @State private var isExpanded = true // Add a @State property to keep track of whether the view is expanded or not
     @State private var scheduleExpanded = true
     @State private var dietaryExpanded = true
+    @State private var showingMealListView = false
     @State private var selectedMeals: Set<Int> = []
     @State private var addedCalories_food = false
     @State private var totalCalories_food = 0
     
-
-
-
-//    func toggleSelectedWorkout(index: Int) {
-//        modelData.schedules[index].isSelected.toggle()
-//        calculateTotalCalories()
-//    }
-//
-//    func calculateTotalCalories() -> Int {
-//        var totalCalories = 0
-//        for index in selectedWorkouts {
-//            let schedule = modelData.schedules[index]
-//            totalCalories += Int(schedule.workout.calo_burn * Float(schedule.minutes))
-//        }
-//        return totalCalories
-//    }
 
     func getTotalCalories() -> Int {
         return totalCalories
@@ -104,82 +89,11 @@ struct HealthView: View {
                     }
                     .padding(.top, 40)
 
-//                    if modelData.schedules.isEmpty {
-//                        Text("You have no workout schedules.")
-//                            .foregroundColor(.secondary)
-//                    } else {
-//                        ForEach(Array(modelData.schedules.enumerated()).sorted { (schedule1, schedule2) -> Bool in
-//                            let formatter = DateFormatter()
-//                            formatter.dateFormat = "h:mm a"
-//                            return formatter.date(from: schedule1.element.selectedTime)! < formatter.date(from: schedule2.element.selectedTime)!
-//                        }, id: \.1.id) { index, schedule in
-//                            VStack(alignment: .leading) {
-//                                HStack {
-//                                    Text(schedule.workout.name)
-//                                        .font(.headline)
-//                                    Spacer()
-//                                    Button(action: {
-//                                        if selectedWorkouts.contains(index) {
-//                                            selectedWorkouts.remove(index)
-//                                            if selectedWorkouts.isEmpty {
-//                                                addedCalories = false
-//                                            }
-//                                        } else {
-//                                            selectedWorkouts.insert(index)
-//                                            addedCalories = true
-//                                        }
-//                                    }) {
-//                                        if selectedWorkouts.contains(index) {
-//                                            Image(systemName: "checkmark.circle.fill")
-//                                                .foregroundColor(.green)
-//                                        } else {
-//                                            Image(systemName: "circle")
-//                                        }
-//                                    }
-//                                }
-//                                Text("Duration: \(schedule.minutes) min")
-//                                    .font(.subheadline)
-//                                Text(schedule.date, style: .date)
-//                                    .font(.subheadline)
-//                                Text(schedule.selectedTime)
-//                                    .font(.subheadline)
-//
-//                                if addedCalories && selectedWorkouts.contains(index) {
-//                                    let calories = Int(schedule.workout.calo_burn * Float(schedule.minutes))
-//
-//                                    Text("Calories: \(calories)")
-//                                        .font(.headline)
-//                                        .fontWeight(.bold)
-//                                        .foregroundColor(.green)
-//                                        .modifier(PulseAnimation(shouldAnimate: $isAnimating))
-//                                } else {
-//                                    Text("Calories will burn: \(Int(schedule.workout.calo_burn * Float(schedule.minutes))) Cals")
-//                                }
-//                            }
-//                            .padding(.vertical, 8)
-//                        }
-//
-//                        if addedCalories {
-//                            Text("Total Calories burned: \(totalCalories) Cals")
-//                                .font(.headline)
-//                                .fontWeight(.bold)
-//                                .foregroundColor(.green)
-//                                .modifier(PulseAnimation(shouldAnimate: $isAnimating))
-//                                .padding(.top)
-//                        }
-//                    }
-
-// version 2
                     if scheduleExpanded {
                         if modelData.schedules.isEmpty {
                             Text("You have no workout schedules.")
                                 .foregroundColor(.secondary)
                         } else {
-                            //                        ForEach(Array(modelData.schedules.enumerated()).sorted { (schedule1, schedule2) -> Bool in
-                            //                            let formatter = DateFormatter()
-                            //                            formatter.dateFormat = "h:mm a"
-                            //                            return formatter.date(from: schedule1.element.selectedTime)! < formatter.date(from: schedule2.element.selectedTime)!
-                            //                        }, id: \.1.id) { index, schedule in
                             ForEach(Array(modelData.schedules.enumerated()).sorted { (schedule1, schedule2) -> Bool in
                                 let formatter = DateFormatter()
                                 formatter.dateFormat = "MMM d, yyyy"
@@ -238,8 +152,6 @@ struct HealthView: View {
                                                     .foregroundColor(.red)
                                             }
                                         }
-                                        
-                                        
                                         
                                     }
                                     Text("Duration: \(schedule.minutes) min")
@@ -386,8 +298,29 @@ struct HealthView: View {
 
                     if dietaryExpanded{
                         if modelData.mealSchedule.isEmpty {
-                            Text("You have no dietary schedules.")
-                                .foregroundColor(.secondary)
+//                            Text("You have no dietary schedules.")
+//                                .foregroundColor(.secondary)
+                            VStack {
+                                Text("You have no dietary schedules.")
+                                    .foregroundColor(.secondary)
+                                
+                                Button(action: {
+                                    self.showingMealListView = true
+                                }) {
+                                    Text("Generate meals for me!")
+                                        .font(.headline)
+                                        .foregroundColor(.white)
+                                        .padding()
+                                        .frame(height: 35) // Set a fixed height for the button
+                                        .padding(.horizontal) // Add padding only to the horizontal sides
+                                        .background(Color.orange)
+                                        .cornerRadius(10)
+                                }
+                                .padding(.top, 10)
+                                .sheet(isPresented: $showingMealListView) {
+                                    MealListView().environmentObject(self.modelData)
+                                }
+                            }
                         } else {
                             
                             ForEach(Array(modelData.mealSchedule.enumerated()).sorted { (schedule1, schedule2) -> Bool in
@@ -448,6 +381,9 @@ struct HealthView: View {
                                             }
                                         }
                                     }
+                                    
+                                    Text("Type: \(schedule.mealName)")
+                                        .font(.subheadline)
                                     Text("Servings: \(schedule.servings )")
                                         .font(.subheadline)
                                     Text(schedule.date, style: .date)

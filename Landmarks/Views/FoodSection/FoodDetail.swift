@@ -153,7 +153,7 @@ struct FoodDetail: View {
                             // Create new meal element to be added to the list later
                             let currentDate = Date()
                             
-                            let newFoodSchedule = FoodSchedule(food: food, calories: Double(caloriesPerServing) * Double(numberOfServings), servings: numberOfServings, date: currentDate, selectedTime: self.getTimeString(forTime: selectedTime), isSelected: false)
+                            let newFoodSchedule = FoodSchedule(food: food, calories: Double(caloriesPerServing) * Double(numberOfServings), servings: numberOfServings, date: currentDate, selectedTime: self.getTimeString(forTime: selectedTime), isSelected: false, mealType: mealType)
                             modelData.mealSchedule.append(newFoodSchedule) // add to the food schedule list to display in health view
                             showSheet.toggle()
                         }

@@ -30,6 +30,19 @@ struct FoodSchedule: Identifiable {
     var date: Date = Date()
     var selectedTime : String
     var isSelected: Bool
+    var mealType: Int
+    var mealName: String {
+        switch mealType {
+        case 1:
+            return "Breakfast"
+        case 2:
+            return "Lunch"
+        case 3:
+            return "Dinner"
+        default:
+            return "Unknown"
+        }
+    }
 }
 
 
